@@ -1,8 +1,8 @@
 # Linear Regression In Swift
 
 ## A simple Regression Algorithm implemented in swift. 
-### The code uses a swift struct to hold the value tables of x and y. The functions for calculating regression are provided within the struct.
-### The table is filled during initialisation of the struct, by using the provided x and y values.
+### A swift struct is used to hold the value tables for x and y. The data model table is filled during initialisation of the struct, by using the provided x and y values in the initializer parameters.
+### The functions for calculating regression are provided within the struct. Except for the predict() calls, all calculations are done in the initializer and stored as model variables.
 - - -
 ### The Regression Coefficients: byx = ∑XY−nX¯Y¯ / ∑X2−nX¯2 and bxy = ∑XY−nX¯Y¯∑Y2−nY¯2.                                       
 
