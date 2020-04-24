@@ -16,6 +16,6 @@ Regression Equation of Y on X -> (Y - YMean) = b_YX(X - XMean)
 * For example to convert a temp in celsius to farenheit, the algorithm is just provided a few sample values, a Dataset. When we call, .predict() with celsius value, the algorithm is able to predict the farenheit value(within a reasonable margin of error), even though the algorithm has no idea of the formula to convert temperatures. 
 * As it does not use any specific formula, the same algorithm can be tried on miles to kilometres, predict house prices in locality based on population. Which is the point of machine learning - to be able to get such functionality by not explicitly coding them, but rather get the model to learn the relationship which enables generalised implementations.
 
-If you would like to see another Classifier Algorithm in Swift, heres a [Generic Decision Tree Classifier](https://github.com/mdsahilak/DecisionTreeClassifier)
+If you would like to see other Classifier Algorithm in Swift, heres a [Generic Decision Tree Classifier](https://github.com/mdsahilak/DecisionTreeClassifier) and [KNearestNeighbours](https://github.com/mdsahilak/KNearestNeighbour).
 
 > Feedback appreciated. Thanks 😀
